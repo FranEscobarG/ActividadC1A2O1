@@ -3,7 +3,7 @@ package com.upchiapas.actividadc1a2o1.models;
 public class Pedido {
     CatalogoPizza listaPizzas=new CatalogoPizza();
     Cliente cliente;
-    Pizza pizza;
+    //Pizza pizza;
     byte opcMenu;
 
     public Pedido(Cliente cliente, byte opcMenu) {
@@ -18,5 +18,4 @@ public class Pedido {
     public Cliente getCliente(){
         return cliente;
     }
-
 }
